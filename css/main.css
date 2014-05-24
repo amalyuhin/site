@@ -1,0 +1,75 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	position: relative;
+	width: 1167px;
+	margin: 0 auto;
+}
+#header{
+	height: 120px;
+	padding-top: 10px;
+}
+
+a.logo{
+	background: url("../img/logo.png");
+	display: block;
+	height: 72px;
+	width: 856px;
+	margin: 0 auto;
+}
+
+ul#top_nav{
+	margin: 0 auto;
+	padding: 0;
+	width: 560px;
+	height: 45px;
+}
+ul#top_nav li{
+	list-style: none;
+	float: left;
+}
+ul#top_nav li a{
+	display: block;
+	width: 140px;
+	height: 45px;
+}
+ul#top_nav a.about-us{
+	background: url("../img/about-us.png");
+}
+ul#top_nav a.about-us:hover{
+	background: url("../img/about-us_mouseon.png");
+}
+ul#top_nav a.about-us:active{
+	background: url("../img/about-us_pressed.png");
+}
+ul#top_nav a.delivery{
+	background: url("../img/delivery.png");
+}
+ul#top_nav a.delivery:hover{
+	background: url("../img/delivery_mouseon.png");
+}
+ul#top_nav a.delivery:active{
+	background: url("../img/delivery_pressed.png");
+}
+ul#top_nav a.payment{
+	background: url("../img/payment.png");
+}
+ul#top_nav a.payment:hover{
+	background: url("../img/payment_mouseon.png");
+}
+ul#top_nav a.payment:active{
+	background: url("../img/payment_pressed.png");
+}
+ul#top_nav a.contacts{
+	background: url("../img/contacts.png");
+}
+ul#top_nav a.contacts:hover{
+	background: url("../img/contacts_mouseon.png");
+}
+ul#top_nav a.contacts:active{
+	background: url("../img/contacts_pressed.png");
+}
