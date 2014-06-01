@@ -5,40 +5,72 @@ html, body{
 }
 
 #container{
+	border: 1px solid black;
+	border-radius: 10px;
 	position: relative;
 	width: 1167px;
 	margin: 0 auto;
 }
-#header{
-	height: 120px;
-	padding-top: 10px;
+#container .left-menu{	
+	float: left;
+	width: 252px;
+}
+#container .content-body{
+	background: #fff;
+	border-bottom: 1px solid #bbb;
+	border-left: 2px solid #bbb;	
+	float: left;
+	width: 893px;
+	padding: 10px;
+	min-height: 558px;	
 }
 
-a.logo{
-	background: url("../img/logo.png");
+#content{
+	background: url("../img/bg.png");
+	overflow: hidden;
+}
+
+#header{
+	background: url("../img/bg.png");
+	border-bottom: 2px solid #d6d6d6;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 114px;
+	padding-top: 20px;
+}
+
+.logo{
+	background: url("../img/logo_bg.png");
 	display: block;
-	height: 72px;
-	width: 856px;
+	height: 81px;
+	width: 884px;
 	margin: 0 auto;
+}
+
+ul.menu li{
+	list-style: none;
 }
 
 ul#top_nav{
 	margin: 0 auto;
+	margin-top: -8px;
 	padding: 0;
-	width: 560px;
+	width: 556px;
 	height: 45px;
 }
-ul#top_nav li{
-	list-style: none;
+ul#top_nav li{	
 	float: left;
 }
 ul#top_nav li a{
 	display: block;
 	width: 140px;
-	height: 45px;
+	height: 42px;
+	margin-top: -1px;
 }
 ul#top_nav a.about-us{
 	background: url("../img/about-us.png");
+	border-top: 1px solid gray;
+	height: 41px;
 }
 ul#top_nav a.about-us:hover{
 	background: url("../img/about-us_mouseon.png");
@@ -48,6 +80,7 @@ ul#top_nav a.about-us:active{
 }
 ul#top_nav a.delivery{
 	background: url("../img/delivery.png");
+	width: 138px;
 }
 ul#top_nav a.delivery:hover{
 	background: url("../img/delivery_mouseon.png");
@@ -57,6 +90,7 @@ ul#top_nav a.delivery:active{
 }
 ul#top_nav a.payment{
 	background: url("../img/payment.png");
+	width: 139px;
 }
 ul#top_nav a.payment:hover{
 	background: url("../img/payment_mouseon.png");
@@ -66,10 +100,85 @@ ul#top_nav a.payment:active{
 }
 ul#top_nav a.contacts{
 	background: url("../img/contacts.png");
+	width: 139px;
 }
 ul#top_nav a.contacts:hover{
 	background: url("../img/contacts_mouseon.png");
 }
 ul#top_nav a.contacts:active{
 	background: url("../img/contacts_pressed.png");
+}
+
+ul#left_nav{
+	margin-top: 25px;
+	padding-left: 10px;
+}
+ul#left_nav li a{
+	display: inline-block;
+	width: 170px;
+	padding: 15px 10px;
+	vertical-align: middle;
+}
+ul#left_nav li span.arrow{
+	background: url("../img/arrow.png");
+	display: inline-block;
+	width: 12px;
+	height: 15px;
+}
+
+#footer{
+	background: url("../img/bg.png");
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	clear: both;
+	height: 165px;	
+}
+#footer .footer-top{
+	height: 25px;
+}
+.footer-top .footer-l{
+	width: 254px;
+	border-top: 2px solid #bbb;
+	margin-top: -2px;
+}
+#footer .dots{
+	background: url("../img/dots.png");
+	width: 130px;
+	height: 12px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+#footer .line{
+	background: url("../img/line.png");
+	width: 881px;
+	height: 1px;
+	margin: 0 auto;
+}
+#footer .bottom-logo{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 309px;
+}
+
+h3.product-title{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+ul.product-params{
+	margin-bottom: 45px;
+	padding-left: 20px;
+
+}
+
+ul.content-menu li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 45px;
+}
+
+ul.list{
+	padding-left: 20px;
 }
