@@ -186,3 +186,16 @@ ul.content-menu li{
 ul.list{
 	padding-left: 20px;
 }
+
+table{
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid #DDD;
+}
+
+.warning{
+    font-size: 18px;
+    font-weight: bold;
+    color: #a42d29;
+}
